@@ -34,14 +34,14 @@ dependencies = [
     "google-cloud-storage",
     "h5py",
     "hurry.filesize",
-    "hydra-core==1.1.1",    # Lock Hydra =>> future versions break!
+    "hydra-core",
     "jsonlines",
-    "omegaconf==2.1.2",     # Lock OmegaConf =>> future versions break!
+    "omegaconf",
     "opencv-python",
     "pandas",
     "rich",
-    "torch>=2.0.0",         # Native PyTorch Code (Release 2.0.0) uses PyTorch 2.0!
-    "torchvision>=0.15.0",
+    "torch",         # Native PyTorch Code (Release 2.0.0) uses PyTorch 2.0!
+    "torchvision",
     "transformers",
     "wandb",
 ]
